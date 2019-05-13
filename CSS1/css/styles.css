@@ -1,0 +1,19 @@
+/* MAIN styles*/
+h1 {
+    color: #7FB500;
+    font-family: 'Paytone One', sans-serif;
+    margin-bottom: 0;
+}
+h2 {
+    color: #7FB500;
+    font-family: 'Paytone One', sans-serif;
+    margin-bottom: 0;
+}
+p1 {
+    font-family: monospace;
+    padding: 1;
+}
+p2 {
+    font-family: monospace;
+    color: grey;
+}
