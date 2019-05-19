@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS3 | homeWorks</title>
+    <style>
+/*        #prekes-tipas*/
+        /* TODO: atskiruose stulpeliuose rodytu "tipas" ir koks tai tipas */
+    </style>
+</head>
+<body>
+    <div id="prekes-tipas"></div>
+    <div id="prekes-specifikacija"></div>
+    <script>
+        var preke = { title: "Nešiojamas kompiuteris", description:"NVIDIA GeForce GTX 1070 grafinis adapteris su Max-Q4 technologija, Intel Core 8th Generation procesorius ir pažangi aušinimo sistema suteikia reikiamą galią, nesvarbu, kur būtumėte.", discount: 30, isItNew: true, color: 0, price: 699.00, currency: "EUR" };
+        prekesTipas= "Tipas: " + preke.title;
+        prekesSpecifikacija= "Specifikacija: " + preke.description;
+        
+        document.getElementById("prekes-tipas").innerHTML = prekesTipas;
+        document.getElementById("prekes-specifikacija").innerHTML = prekesSpecifikacija;
+        
+    </script>
+</body>
+</html>
