@@ -1,0 +1,132 @@
+/* main style for omlete recipe page */
+.header {
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: orange;
+    font-family:sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px
+}
+.first-row {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.ingredients-table {
+    height: 100%;
+    width: 430px;
+    max-width: 430px;
+    min-width: 420px;
+}
+.table-name {
+    font-family: Montserrat;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 4px 4px 0 0;
+    padding: 2px;
+}
+table {
+    display: flex;
+    border: 2px solid orange;
+    border-radius: 0 0 4px 4px;
+}
+.col1 {
+    text-align:right;
+    color: orange;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+}
+td {
+    font-size: 19px;
+    text-align:left;
+    color: dimgrey;
+    font-family: Montserrat;
+}
+.omlete-image {
+    height: 100%;
+    max-width: 496px;
+    background-color: orange;
+    border-radius: 4px 4px;
+}
+img {
+    width: inherit;
+    border-radius: 4px 4px 0 0;
+    width: 496px;
+    min-width: 496px;
+    height: 330px;
+    min-height: 330px;
+}
+p {
+    margin: 0;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+}
+.directions-header{
+    text-align: center;
+    font-size: 25px;
+    color: dimgrey;
+    font-family: Montserrat;
+    border-top: 1px solid dimgrey;
+    margin-top: 10px;
+}
+.directions {
+    align-items: center;
+    font-size: 18px;
+    color: dimgrey;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+@media screen and (min-width: 900px) {
+    .first-row {
+        justify-content: center;
+    }
+    .ingredients-table {
+    margin-right: 10px;
+    }
+    .directions {
+        margin: 0 180px 0 180px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header {
+        margin: 0;
+    }
+    .first-row {
+        flex: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ingredients-table {
+        flex: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .omlete-image {
+        margin: 20px 0 0 0 ;
+    }
+    img {
+        width: 372px;
+        min-width: 372px;
+        height: 248px;
+        min-height: 248px;
+    }
+    .directions-header{
+        margin-top: 0;
+    }
+    .directions {
+        margin-top: 0;
+    }
+}
+        
