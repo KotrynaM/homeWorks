@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> classWork | php01</title>
     </head>
-        <?php $šalis = 'Lietuva';?>
-        <?php $miestas = 'Vilnius';?>
-        <?php $populiacija = 574221;?>
+        <?php $šalis = 'Lietuva';
+        $miestas = 'Vilnius';
+        $populiacija = 574221;?>
     <body>
         <ul>
             <li><?= $šalis; ?></li>
