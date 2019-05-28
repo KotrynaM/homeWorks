@@ -1,0 +1,152 @@
+
+body {
+    font-family: montserrat;
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    margin-top: 0;
+}
+
+.topnav #myLinks {
+    display: none;
+    text-align: end;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.container {
+    padding: 5px;
+    margin-right: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    }
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    transform: rotate(-45deg) translate(-10px, 10px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-10px, -10px);
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.active {
+    background-color: #f1f1f1;
+    color: white;
+}
+
+.title {
+    position: relative;
+    bottom: -18px;
+    left: 20px;
+    display: inline-flex;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 30px
+}
+
+.button-more {
+    position: relative;
+    bottom: -40px;
+    left: 20px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.button-more a {
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#about h2, p{
+    margin: 0;
+    padding: 35px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 30px
+}
+
+#contacts h2, p{
+    margin: 0;
+    padding: 35px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 30px
+}
+
+#contacts h2 {
+    margin-top: 0px;
+}
+
+p {
+    font-size: 18px;
+    padding: 0;
+    padding-left: 20px;
+}
+.writtenElement img{
+    opacity: 0.15;
+    position: sticky;
+    top: -60px;
+}
+
+#contactForm {
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
