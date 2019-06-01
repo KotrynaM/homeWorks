@@ -1,0 +1,1 @@
+preg_match – this function is used to perform a pattern match on a string. It returns true if a match is found and false if a match is not found. preg_replace – this function is used to perform a pattern match on a string and then replace the match with the specified text.
